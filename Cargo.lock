@@ -189,7 +189,6 @@ dependencies = [
  "glib",
  "glib-sys",
  "gobject-sys",
- "gtk-rs-lgpl-docs",
  "libc",
 ]
 
@@ -558,7 +557,6 @@ dependencies = [
  "glib",
  "glib-sys",
  "gobject-sys",
- "gtk-rs-lgpl-docs",
  "libc",
  "pango",
 ]
@@ -575,7 +573,6 @@ dependencies = [
  "glib",
  "glib-sys",
  "gobject-sys",
- "gtk-rs-lgpl-docs",
  "libc",
 ]
 
@@ -620,17 +617,6 @@ dependencies = [
 ]
 
 [[package]]
-name = "ggrid"
-version = "0.1.0"
-dependencies = [
- "booru",
- "gdk-pixbuf",
- "gio",
- "gtk",
- "reqwest",
-]
-
-[[package]]
 name = "gif"
 version = "0.10.3"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -655,7 +641,6 @@ dependencies = [
  "glib",
  "glib-sys",
  "gobject-sys",
- "gtk-rs-lgpl-docs",
  "lazy_static",
  "libc",
 ]
@@ -731,21 +716,11 @@ dependencies = [
  "glib",
  "glib-sys",
  "gobject-sys",
- "gtk-rs-lgpl-docs",
  "gtk-sys",
  "lazy_static",
  "libc",
  "pango",
  "pango-sys",
-]
-
-[[package]]
-name = "gtk-rs-lgpl-docs"
-version = "0.1.15"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "994aa2e2acf2cdd356d0c70d0b23368fb2ab801ff0433f1d87b583f789916119"
-dependencies = [
- "rustdoc-stripper",
 ]
 
 [[package]]
@@ -1443,6 +1418,17 @@ dependencies = [
 ]
 
 [[package]]
+name = "rbooru"
+version = "0.1.0"
+dependencies = [
+ "booru",
+ "gdk-pixbuf",
+ "gio",
+ "gtk",
+ "reqwest",
+]
+
+[[package]]
 name = "rdrand"
 version = "0.4.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -1557,12 +1543,6 @@ checksum = "138e3e0acb6c9fb258b19b67cb8abd63c00679d2851805ea151465464fe9030a"
 dependencies = [
  "semver",
 ]
-
-[[package]]
-name = "rustdoc-stripper"
-version = "0.1.9"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "29f07eb7d2295b0db2dc3f4d0e995b3a2751ba08173529d2f23fcc0e54312e8f"
 
 [[package]]
 name = "ryu"
