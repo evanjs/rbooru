@@ -1,0 +1,22 @@
+[package]
+name = "ggrid"
+version = "0.1.0"
+authors = ["Evan Stoll <evanjsx@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+#[dev-dependencies]
+#gdk-pixbuf = { version = "0.8.0", features = [ "embed-lgpl-docs" ] }
+#gtk = { version = "0.8.0", features = ["v3_20", "embed-lgpl-docs"] }
+#gio = { version = "", features = ["v2_44", "embed-lgpl-docs"] }
+
+[dependencies]
+reqwest = { version = "0.10.0", features = [ "json", "blocking" ] }
+gdk-pixbuf = { version = "0.8.0", features = [ "embed-lgpl-docs" ] }
+gtk = { version = "0.8.0", features = ["v3_20", "embed-lgpl-docs"] }
+gio = { version = "", features = ["v2_44", "embed-lgpl-docs"] }
+booru = { git = "https://github.com/evanjs/booru" }
+#gdk-pixbuf = { version = "0.8.0" }
+#gtk = { version = "0.8.0", features = [ "v3_20" ] }
+#gio = { version = "", features = ["v2_44" ] }
