@@ -19,10 +19,10 @@
             <property name="hexpand">True</property>
             <property name="search_mode_enabled">True</property>
             <child>
-              <object class="GtkSearchEntry" id="searchentry">
+              <object class="GtkSearchEntry" id="search_entry">
                 <property name="visible">True</property>
                 <property name="can_focus">True</property>
-                <property name="hexpand">True</property>
+                <property name="width_chars">64</property>
                 <property name="primary_icon_name">edit-find-symbolic</property>
                 <property name="primary_icon_activatable">False</property>
                 <property name="primary_icon_sensitive">False</property>
@@ -50,6 +50,11 @@
                   <object class="GtkFlowBox" id="postcontainer">
                     <property name="visible">True</property>
                     <property name="can_focus">False</property>
+                    <property name="homogeneous">True</property>
+                    <property name="column_spacing">10</property>
+                    <property name="row_spacing">10</property>
+                    <property name="max_children_per_line">3</property>
+                    <property name="selection_mode">browse</property>
                   </object>
                 </child>
               </object>

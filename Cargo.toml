@@ -12,4 +12,8 @@ reqwest = { version = "0.10.0", features = [ "json", "blocking" ] }
 gdk-pixbuf = { version = "0.8.0" }
 gtk = { version = "0.8.0", features = [ "v3_20" ] }
 gio = { version = "", features = [ "v2_44" ] }
+dotenv = "0.15.0"
+envy = "0.4.0"
+glib = "0.9.0"
+gdk = "0.12.0"
 booru = { git = "https://github.com/evanjs/booru" }

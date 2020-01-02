@@ -132,7 +132,7 @@ dependencies = [
 [[package]]
 name = "booru"
 version = "0.1.0"
-source = "git+https://github.com/evanjs/booru#bc22a3b59fb432dece2315098241e042d80da085"
+source = "git+https://github.com/evanjs/booru#58316130db33117cf760244f5b1f7e5f6cff09bd"
 dependencies = [
  "directories",
  "dotenv",
@@ -419,9 +419,9 @@ version = "0.1.6"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "0bc225b78e0391e4b8683440bf2e63c2deeeb2ce5189eab46e2b68c6d3725d08"
 dependencies = [
- "proc-macro2 1.0.6",
+ "proc-macro2 1.0.7",
  "quote 1.0.2",
- "syn 1.0.11",
+ "syn 1.0.12",
  "synstructure",
 ]
 
@@ -507,9 +507,9 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "52e7c56c15537adb4f76d0b7a76ad131cb4d2f4f32d3b0bcabcbe1c7c5e87764"
 dependencies = [
  "proc-macro-hack",
- "proc-macro2 1.0.6",
+ "proc-macro2 1.0.7",
  "quote 1.0.2",
- "syn 1.0.11",
+ "syn 1.0.12",
 ]
 
 [[package]]
@@ -1223,9 +1223,9 @@ version = "0.4.6"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "44ca92f893f0656d3cba8158dd0f2b99b94de256a4a54e870bd6922fcc6c8355"
 dependencies = [
- "proc-macro2 1.0.6",
+ "proc-macro2 1.0.7",
  "quote 1.0.2",
- "syn 1.0.11",
+ "syn 1.0.12",
 ]
 
 [[package]]
@@ -1270,9 +1270,9 @@ version = "0.5.11"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "ecd45702f76d6d3c75a80564378ae228a85f0b59d2f3ed43c91b4a69eb2ebfc5"
 dependencies = [
- "proc-macro2 1.0.6",
+ "proc-macro2 1.0.7",
  "quote 1.0.2",
- "syn 1.0.11",
+ "syn 1.0.12",
 ]
 
 [[package]]
@@ -1292,9 +1292,9 @@ dependencies = [
 
 [[package]]
 name = "proc-macro2"
-version = "1.0.6"
+version = "1.0.7"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "9c9e470a8dc4aeae2dee2f335e8f533e2d4b347e1434e5671afc49b054592f27"
+checksum = "0319972dcae462681daf4da1adeeaa066e3ebd29c69be96c6abb1259d2ee2bcc"
 dependencies = [
  "unicode-xid 0.2.0",
 ]
@@ -1320,7 +1320,7 @@ version = "1.0.2"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "053a8c8bcc71fcce321828dc897a98ab9760bef03a4fc36693c231e5b3216cfe"
 dependencies = [
- "proc-macro2 1.0.6",
+ "proc-macro2 1.0.7",
 ]
 
 [[package]]
@@ -1422,8 +1422,12 @@ name = "rbooru"
 version = "0.1.0"
 dependencies = [
  "booru",
+ "dotenv",
+ "envy",
+ "gdk",
  "gdk-pixbuf",
  "gio",
+ "glib",
  "gtk",
  "reqwest",
 ]
@@ -1620,9 +1624,9 @@ version = "1.0.104"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "128f9e303a5a29922045a830221b8f78ec74a5f544944f3d5984f8ec3895ef64"
 dependencies = [
- "proc-macro2 1.0.6",
+ "proc-macro2 1.0.7",
  "quote 1.0.2",
- "syn 1.0.11",
+ "syn 1.0.12",
 ]
 
 [[package]]
@@ -1679,11 +1683,11 @@ dependencies = [
 
 [[package]]
 name = "syn"
-version = "1.0.11"
+version = "1.0.12"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "dff0acdb207ae2fe6d5976617f887eb1e35a2ba52c13c7234c790960cdad9238"
+checksum = "ddc157159e2a7df58cd67b1cace10b8ed256a404fb0070593f137d8ba6bef4de"
 dependencies = [
- "proc-macro2 1.0.6",
+ "proc-macro2 1.0.7",
  "quote 1.0.2",
  "unicode-xid 0.2.0",
 ]
@@ -1694,9 +1698,9 @@ version = "0.12.3"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "67656ea1dc1b41b1451851562ea232ec2e5a80242139f7e679ceccfb5d61f545"
 dependencies = [
- "proc-macro2 1.0.6",
+ "proc-macro2 1.0.7",
  "quote 1.0.2",
- "syn 1.0.11",
+ "syn 1.0.12",
  "unicode-xid 0.2.0",
 ]
 
@@ -1919,9 +1923,9 @@ dependencies = [
  "bumpalo",
  "lazy_static",
  "log",
- "proc-macro2 1.0.6",
+ "proc-macro2 1.0.7",
  "quote 1.0.2",
- "syn 1.0.11",
+ "syn 1.0.12",
  "wasm-bindgen-shared",
 ]
 
@@ -1953,9 +1957,9 @@ version = "0.2.56"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "4f9dbc3734ad6cff6b76b75b7df98c06982becd0055f651465a08f769bca5c61"
 dependencies = [
- "proc-macro2 1.0.6",
+ "proc-macro2 1.0.7",
  "quote 1.0.2",
- "syn 1.0.11",
+ "syn 1.0.12",
  "wasm-bindgen-backend",
  "wasm-bindgen-shared",
 ]
@@ -1975,9 +1979,9 @@ dependencies = [
  "anyhow",
  "heck",
  "log",
- "proc-macro2 1.0.6",
+ "proc-macro2 1.0.7",
  "quote 1.0.2",
- "syn 1.0.11",
+ "syn 1.0.12",
  "wasm-bindgen-backend",
  "weedle",
 ]
