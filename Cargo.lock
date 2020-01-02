@@ -132,7 +132,7 @@ dependencies = [
 [[package]]
 name = "booru"
 version = "0.1.0"
-source = "git+https://github.com/evanjs/booru#58316130db33117cf760244f5b1f7e5f6cff09bd"
+source = "git+https://github.com/evanjs/booru#495323e245eff0d04a9601c99c6f12c9bb7e5b6b"
 dependencies = [
  "directories",
  "dotenv",
