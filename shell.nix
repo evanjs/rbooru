@@ -1,7 +1,7 @@
 with import <nixpkgs/nixos> {};
 pkgs.mkShell {
   buildInputs = with pkgs; [
-    (pkgs.latest.rustChannels.nightly.rust.override { extensions = [ "rust-src" "rust-std" "rustfmt-preview" "clippy-preview" ]; })
+    (pkgs.latest.rustChannels.stable.rust.override { extensions = [ "rust-src" "rust-std" "rustfmt-preview" "clippy-preview" ]; })
     gnome3.gobject-introspection
     gnome3.gtk
     gnome3.glib
